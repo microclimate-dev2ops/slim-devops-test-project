@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: "{{  .Chart.Name }}-basedeployment"
+  name: "the-{{  .Chart.Name }}-basedeployment"
   labels:
     chart: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
 spec:
