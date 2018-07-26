@@ -1,0 +1,6 @@
+image:
+  imagePullPolicy: Always
+hpa:
+  metrics:
+    cpu:
+      targetAverageUtilization: 75
