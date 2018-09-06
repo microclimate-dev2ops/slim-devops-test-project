@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: "the-{{  .Chart.Name }}-service"
+  name: "the-{{  .Chart.Name }}-service-somethingelse"
   labels:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
 spec:
